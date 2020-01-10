@@ -1,0 +1,18 @@
+# root
+.DS_Store
+.vscode
+node_modules/
+yarn-debug.log*
+yarn-error.log
+package-lock.json
+npm-debug.*
+.env
+.idea
+
+# mobile
+mobile/.expo/
+
+# web
+web/build
+web/platforms
+wev/.env

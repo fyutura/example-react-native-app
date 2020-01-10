@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Project",
+    "description": "Project",
+    "slug": "Project",
+    "scheme": "Project",
+    "privacy": "public",
+    "sdkVersion": "34.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.29",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "enabled": false,
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.Project.Project",
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to take pictures of the item to sell",
+        "NSPhotoLibraryUsageDescription": "This app uses photo library to get pictures of the item to sell"
+      }
+    },
+    "android": {
+      "package": "com.Project.Project",
+      "googleServicesFile": "./google-services.json",
+      "versionCode": 9
+    },
+    "ignoreNodeModulesValidation": true,
+    "packagerOpts": {
+      "config": "metro.config.js"
+    },
+    "notification": {
+      "icon": "./assets/push_icon.png"
+    }
+  }
+}
